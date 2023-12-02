@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/Hellen_logo.png">
+  <title>Brand</title>
+
+</head>
+
+<body class="brand">
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="perfume.html">Perfume</a></li>
+        <li><a href="designer.html">Designer</a></li>
+        <li><a class="current" href="brand.html">Brand</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="button">
+      <!-- <button id="play-pause-btn" class="play-btn">&#9654;</button> -->
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <button id="play-pause-btn" class="play-btn" aria-label="Play">
+          <img src="images/playit.svg" alt="the play icon for song" style="width: 28px; height: 28px; margin-left: 3px;">
+        </button>
+      </div>
+      <audio id="audio-player" src="mp3/Moon-Dock.mp3"></audio>
+    </div>
+
+    <h1>Some Popular Perfume Brands</h1>
+
+    <div class="somebrand">
+
+      <div>
+        <img src="images/brand/Chanel.png" onclick="showPopup('images/brand/Chanel.png')" alt="pic of chanel">
+        <h3>Chanel</h3>
+
+        <div id="popup" style="display:none">
+          <div class="popup-content">
+            <img id="popup-image" src="" alt="pic of chanel">
+            <div class="popup-text">
+            </div>
+            <button id="close-btn" onclick="hidePopup()">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/brand/Christian Dior.png" onclick="showPopup('images/brand/Christian Dior.png')"
+          alt="pic of Christian Dior">
+        <h3>Christian Dior</h3>
+
+        <div id="popup" style="display:none">
+          <div class="popup-content">
+            <img id="popup-image" src="" alt="pic of Christian Dior">
+            <div class="popup-text-2">
+            </div>
+            <button id="close-btn" onclick="hidePopup()">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/brand/Creed.png" onclick="showPopup('images/brand/Creed.png')" alt="pic of Creed">
+        <h3>Creed</h3>
+
+        <div id="popup" style="display:none">
+          <div class="popup-content">
+            <img id="popup-image" src="" alt="Iceland Aurora">
+            <div class="popup-text-3">
+            </div>
+            <button id="close-btn" onclick="hidePopup()">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/brand/Tom Ford.png" onclick="showPopup('images/brand/Tom Ford.png')" alt="pic of Tom Ford">
+        <h3>Tom Ford</h3>
+
+        <div id="popup" style="display:none">
+          <div class="popup-content">
+            <img id="popup-image" src="" alt="pic of Tom Ford">
+            <div class="popup-text-3">
+            </div>
+            <button id="close-btn" onclick="hidePopup()">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/brand/Penhaligons.png" onclick="showPopup('images/brand/Penhaligons.png')"
+          alt="pic of Penhaligon's">
+        <h3>Penhaligon's</h3>
+
+        <div id="popup" style="display:none">
+          <div class="popup-content">
+            <img id="popup-image" src="" alt="pic of Penhaligon's">
+            <div class="popup-text-3">
+            </div>
+            <button id="close-btn" onclick="hidePopup()">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="images/brand/Hermès.png" onclick="showPopup('images/brand/Hermès.png')" alt="pic of Hermès">
+        <h3>Hermès</h3>
+
+        <div id="popup" style="display:none">
+          <div class="popup-content">
+            <img id="popup-image" src="" alt="pic of Hermès">
+            <div class="popup-text-3">
+            </div>
+            <button id="close-btn" onclick="hidePopup()">Close</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="xerjoff">
+     <h1>XERJOFF Perfume Videos</h1>
+     <p>XERJOFF GROUP S.P.A. is an Italian - turin based - perfume house fully dedicated to luxury perfume in its art form.</p>
+    </div>
+
+    <div class="prettygif">
+
+      <div>
+        <img src="images/brand/10.gif" alt="pretty gif of perfume">
+
+      </div>
+
+      <div>
+        <img src="images/brand/12.gif" alt="pretty gif of perfume">
+
+      </div>
+
+      <div>
+        <img src="images/brand/11.gif" alt="pretty gif of perfume">
+
+      </div>
+
+      <div>
+        <img src="images/brand/7.gif" alt="pretty gif of perfume">
+
+      </div>
+
+      <div>
+        <img src="images/brand/2.gif" alt="pretty gif of perfume">
+      </div>
+
+      <div>
+        <img src="images/brand/9.gif" alt="pretty gif of perfume">
+      </div>
+
+
+    </div>
+
+    </div>
+
+
+  </main>
+
+  <footer>
+    <p>SI539 Final by Hellen Tong © 2023</p>
+  </footer>
+
+</body>
+<script src="code.js"></script>
+
+</html>

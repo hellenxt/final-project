@@ -1,0 +1,425 @@
+html {
+    scroll-behavior: smooth;
+}
+.index{
+    font-family: "Didot",Poppins, sans-serif;
+    background: radial-gradient(circle, #3e5a5a 10%, transparent 11%), radial-gradient(circle at bottom left, #3e5a5a 5%, transparent 6%), radial-gradient(circle at bottom right, #3e5a5a 5%, transparent 6%), radial-gradient(circle at top left, #3e5a5a 5%, transparent 6%), radial-gradient(circle at top right, #3e5a5a 5%, transparent 6%);
+    background-size: 3em 3em;
+    background-color: #282828;
+    opacity: 1
+}
+.designer{
+    font-family: "Didot",Poppins, sans-serif;
+    background: radial-gradient(circle, #3e5a4d 10%, transparent 11%), radial-gradient(circle at bottom left, #3e5a4d 5%, transparent 6%), radial-gradient(circle at bottom right, #3e5a4d 5%, transparent 6%), radial-gradient(circle at top left, #3e5a4d 5%, transparent 6%), radial-gradient(circle at top right, #3e5a4d 5%, transparent 6%);
+    background-size: 3em 3em;
+    background-color: #282828;
+    opacity: 1
+}
+.perfume{
+    font-family: "Didot",Poppins, sans-serif;
+    background: radial-gradient(circle, #563e5a 10%, transparent 11%), radial-gradient(circle at bottom left, #563e5a 5%, transparent 6%), radial-gradient(circle at bottom right, #563e5a 5%, transparent 6%), radial-gradient(circle at top left, #563e5a 5%, transparent 6%), radial-gradient(circle at top right, #563e5a 5%, transparent 6%);
+    background-size: 3em 3em;
+    background-color: #282828;
+    opacity: 1
+}
+.brand{
+    font-family: "Didot",Poppins, sans-serif;
+    background: radial-gradient(circle, #5a4b3e 10%, transparent 11%), radial-gradient(circle at bottom left, #5a4b3e 5%, transparent 6%), radial-gradient(circle at bottom right, #5a4b3e 5%, transparent 6%), radial-gradient(circle at top left, #5a4b3e 5%, transparent 6%), radial-gradient(circle at top right, #5a4b3e 5%, transparent 6%);
+    background-size: 3em 3em;
+    background-color: #282828;
+    opacity: 1
+}
+
+header {
+    width: 50%;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: left;
+}
+
+span {
+    font-size:24px;
+    color:#6dc3c3;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    border: 0px solid black;
+    padding: 12px 36px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 50px rgba(35, 35, 35, 0.5);
+}
+
+a:hover {
+    color: #6dc3c3;
+}
+
+nav a.current {
+    text-transform: uppercase;
+    color: black;
+    background-color: #6dc3c3;
+    font-weight: 700;
+}
+
+.navbar ul {
+    padding: 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: auto ;
+    margin-right: auto ;
+    justify-content: space-between;
+}
+
+
+main,
+footer {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#popup img {
+    border-radius: 5px;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.somebrand .popup-content {
+    background: none;
+}
+
+.popup-content p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #575757;
+}
+
+#close-btn {
+    display: none;
+}
+
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e8e8e8;
+    margin: 60px 0px 32px 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #dbdbdb;
+    margin: 12px 0px;
+}
+
+h3 {
+    font-weight: 200;
+    color: #f7defbef;
+}
+
+.about h2 {
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.three-column-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+    row-gap: 90px;
+}
+.another-three-column-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 36px;
+    row-gap: 60px;
+}
+
+.prettygif {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    row-gap: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    place-items: center;
+}
+
+.prettygif div {
+    border: 0px solid black;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 4%;
+}
+
+.prettygif h3 {
+    text-align: center;
+    padding: 8px 0px 16px 0px;
+}
+
+.prettygif img {
+    border-radius: 15px 15px 15px 15px;
+}
+
+.module {
+    border: 0px solid black;
+    padding: 36px;
+    border-radius: 15px;
+    box-shadow: -5px -5px 30px #ffffff7c, 10px 10px 30px #ffffff7c;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.module-p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.explore {
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: -8px -8px 8px rgba(174, 174, 192, 0.25),
+        5px 5px 5px #fff;
+    color: rgb(195, 195, 195);
+    background: rgba(255, 255, 255, 0.286);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.explore:hover {
+    color: black;
+    background: #6dc3c3;
+    font-weight: 900;
+    color: #fff;
+}
+
+.perfume_designer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 30px;
+}
+
+.perfume_designer div {
+    flex: 0 0 calc(100% / 6);
+    padding: 0 24px;
+}
+
+.perfume_designer>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.perfume_designer img {
+    border-radius: 50%;
+    margin-bottom: 6px;
+}
+
+.perfume_designer,
+.somebrand h3 {
+    text-align: center;
+}
+.somebrand h3 {
+    text-size-adjust: larger;
+    color: antiquewhite;
+    text-align: center;
+    border: #7f5885;
+}
+
+.perfume_designer p {
+    text-align: center;
+    font-weight: 100;
+    color: #6b6b6b;
+    font-size: 12px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.heading p {
+    color: #cacaca;
+    margin-top: -32px;
+}
+
+.somebrand {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 40px;
+}
+
+.somebrand img {
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.somebrand p {
+    text-align: center;
+    font-weight: 100;
+    color: #6b6b6b;
+    font-size: 12px;
+}
+
+.popup-text p {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #575757;
+}
+
+footer {
+    margin-top: 48px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+footer p {
+    color:#6dc3c3;
+    font-size: 16px;
+}
+.xerjoff p{
+    text-align: center;
+    color: rgb(255, 249, 136);
+    margin-bottom: 20px;
+}
+
+.flip-card {
+    width: 100%;
+    height: 280px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+
+
+.flip-card-front img {
+    border-radius: 150px;
+    border: 5px dotted #7f5885;
+    border-radius: 150px;
+    box-shadow: -5px -5px 10px #7f58857c,
+        5px 5px 10px rgba(174, 174, 192, 0.4);
+}
+
+.flip-card-front h3 {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.flip-card-back {
+    background-color: #f9d4ffef;
+    color: #575757;
+    transform: rotateY(180deg);
+    padding: 24px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* play button */
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.play-btn {
+    background-color:#6dc3c3;
+    border: none;
+    box-shadow: -5px -5px 10px #ffffff8a,
+        8px 8px 8px rgba(174, 174, 192, 0.2),
+        -8px -8px 8px rgba(174, 174, 192, 0.2),
+        5px 5px 5px #ffffff8a;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    margin-top: 16px;
+    margin-bottom: -32px;
+    justify-content: left;
+    align-items: left;
+}
+
+.play-btn:hover {
+    color: #000;
+    cursor: pointer;
+}
